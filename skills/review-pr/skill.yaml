@@ -1,0 +1,14 @@
+name: review-pr
+description: "Review a GitHub pull request and provide structured feedback"
+version: "1.0.0"
+argument-hint: "<pr-number>"
+user-invocable: true
+allowed-tools:
+  - Bash
+  - Read
+  - Glob
+  - Grep
+tags:
+  - git
+  - review
+  - github

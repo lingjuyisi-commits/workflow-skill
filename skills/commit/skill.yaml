@@ -1,0 +1,13 @@
+name: commit
+description: "Create well-formatted git commits with conventional commit messages"
+version: "1.0.0"
+argument-hint: "[message]"
+user-invocable: true
+allowed-tools:
+  - Bash
+  - Read
+  - Glob
+  - Grep
+tags:
+  - git
+  - workflow

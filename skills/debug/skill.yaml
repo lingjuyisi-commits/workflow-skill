@@ -1,0 +1,13 @@
+name: debug
+description: "Systematically debug an issue by analyzing errors, logs, and code"
+version: "1.0.0"
+argument-hint: "<error-or-description>"
+user-invocable: true
+allowed-tools:
+  - Bash
+  - Read
+  - Glob
+  - Grep
+tags:
+  - debugging
+  - workflow
